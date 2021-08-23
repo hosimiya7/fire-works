@@ -23,8 +23,6 @@ function draw() {
     setGradient(0, 0, width, height, color(0, 0, 0), color(24, 32, 72), Y_AXIS);
     noStroke();
 
-
-
     // 花火を打ち上げる間隔を調整
     if (0 === frameCount % 100) {
         // 打ち上がるスピード
