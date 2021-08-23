@@ -302,13 +302,17 @@ function setGradient(x, y, w, h, c1, c2, axis) {
 window.onload = function () {
     Particles.init({
         selector: '.background',
-        sizeVariations: 400,
+        sizeVariations: 10,
         color: [
             'rgba(121, 4, 4, 0.9)',
         ],
         move: {
             speed: 1.6,
             direction: "bottom"
+        },
+        opacity: {
+            value: 0.7,
+            random: true,
         },
     })
 };
